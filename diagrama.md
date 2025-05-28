@@ -1,15 +1,17 @@
 ```mermaid
-graph TD;
-    A[Inicio] --> B[Recepción y almacenamiento de insumos];
-    B --> C[¿Insumos en buen estado?];
-    C -- Sí --> D[Mezcla de ingredientes];
-    C -- No --> C1[Revisión de insumos] --> B;
-    D --> E[Formación de cubos de hielo];
-    E --> F[¿Calidad adecuada?];
-    F -- Sí --> G[Empaque];
-    F -- No --> F1[Ajuste de parámetros ] --> E;
-    G --> H[¿Empaque sellado correctamente?];
-    H -- Sí --> I[Almacenamiento en cámaras frigoríficas];
-    H -- No --> H1[Corrección de empaque] --> G;
-    I --> J[Distribución ];
-    J --> K[Fin];
+graph TD
+    A[Presidencia Ejecutiva] --> B[Consejo Directivo]
+    B --> C[Dirección General]
+
+    %% Órganos de línea
+    C --> D1[Gerencia Administrativa]
+    C --> D2[Gerencia de Producción]
+    C --> D3[Gerencia de Ventas]
+    
+    %% Asesorías externas y comités (líneas discontinuas simuladas)
+    C -->|--->| E1[Asesoría Legal Externa]
+    C -->|--->| E2[Comité Técnico Externo]
+
+    %% Sectores de apoyo en proyecto
+    C -->|...>| F1[Departamento de Innovación (En Proyecto)]
+    C -->|...>| F2[Unidad de Transformación Digital (En Proyecto)]
