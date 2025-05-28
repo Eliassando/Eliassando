@@ -1,3 +1,11 @@
+## Organigrama Institucional
+**Nombre de la Organización:** Facultad de Ciencias Económicas  
+**Encabezamiento de identificación:** Organigrama General  
+**Nombre del responsable del diseño:** Prof. Sonia Viveros Vega  
+**Fecha de presentación:** 27 de agosto de 2025  
+**Aprobado por:** Dirección General  
+**Fecha de aprobación:** 29 de agosto de 2025  
+
 ```mermaid
 graph TD
     A[Presidencia Ejecutiva] --> B[Consejo Directivo]
