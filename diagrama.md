@@ -6,7 +6,8 @@
 **Aprobado por:** Dirección General  
 **Fecha de aprobación:** 29 de agosto de 2025  
 
-```mermaid
+```
+mermaid
 graph TD
     A[Presidencia Ejecutiva] --> B[Consejo Directivo]
     B --> C[Dirección General]
